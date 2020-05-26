@@ -1,0 +1,67 @@
+$font-path : "../fonts";
+
+@font-face
+{
+    font-family: 'b_homa';
+    font-weight : normal;
+    font-style: normal;
+    font-size: 0.9rem;
+    src: url("../fonts/108b712c01cdf4eb7f15d9180567345060f039191901931.ttf");
+}
+
+
+body{
+    font-family: b_homa , Tahoma , Arial;
+background-color: #ccc;
+    box-sizing: border-box;
+}
+
+.closeModal:hover i{
+   color:lightgreen
+}
+
+@media (max-width: 991.98px) and (min-width: 576px)
+{
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 1200px)
+{
+    .page-container {
+        width: 1210px !important;
+    }
+
+}
+
+@media (min-width: 992px)
+{
+    .page-container {
+        width: 970px;
+    }
+}
+
+@media (max-width: 991.98px) and (min-width: 576px)
+{
+    .page-container {
+        max-width: 100%;
+    }
+}
+
+.page-container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.login-modal-body{
+    padding:20px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet-active {
+    background: #1b4b72;
+}
+

@@ -1,0 +1,19 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/css/all.css';
+
+@import "style";
+
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+
+@import 'swiper/swiper.scss';
+
+@import 'swiper/src/components/pagination/pagination.scss';
